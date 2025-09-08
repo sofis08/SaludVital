@@ -1,0 +1,86 @@
+.perfil-container {
+  position: relative;       
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('../assets/img/fondoperfil.png'); 
+  background-size: cover;   
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;     
+  color: black;             
+  box-sizing: border-box;
+}
+
+.logo-link {
+  position: absolute;
+  top: 20px;        
+  left: 20px;       
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  color: black;    
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.logo-link .logo {
+  width: 40px;       
+  height: 40px;
+  background-image: url('../assets/img/logo.png'); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px; 
+}
+
+.perfil-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.perfil-form {
+  width: 50%;         
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  padding: 40px;
+}
+
+
+.perfil-form form {
+  display: flex;
+  flex-wrap: wrap;       
+  gap: 20px;             
+}
+
+.perfil-form .col-md-6 {
+  flex: 0 0 48%;       
+  box-sizing: border-box;
+}
+
+
+#nombre { background-color: #A57DDB; color: black; }
+#email { background-color: #75E1E6; color: black; }
+#direccion { background-color: #75E1E6; color: black; }
+#pais { background-color: #A57DDB; color: black; }
+#fecha { background-color: #BA99DD; color: black; }
+#sexo { background-color: #BA99DD; color: black; }
+
+.perfil-form input,
+.perfil-form textarea,
+.perfil-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-size: 1rem;
+}
+
+
+
+

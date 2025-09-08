@@ -1,0 +1,25 @@
+
+.logo-container {
+  position: absolute; 
+  top: 15px;          
+  left: 15px;         
+  display: flex;
+  align-items: center;
+  gap: 8px;         
+}
+
+
+.logo {
+  background-image: url("../assets/img/logo.png"); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px; 
+  height: 40px;
+}
+
+
+.logo-text {
+  font-weight: bold;
+  font-size: 20px;
+  color: #000; 
+}

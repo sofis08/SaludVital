@@ -1,0 +1,95 @@
+.record-container {
+  display: flex;
+  flex-direction: row; 
+  min-height: 100vh;
+  background-color: #F3F4F8;
+}
+
+
+.record-img {
+  flex: 1;
+  background-image: url("../assets/img/record.png");
+  background-size: cover;
+  background-position: center;
+}
+
+
+.record-form {
+  flex: 1;
+  padding: 40px;
+  background: #f9f9f9;
+  position: relative;
+}
+
+
+.logo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo {
+  background-image: url("../assets/img/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.logo-text {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+
+.custom-input {
+  border: 2px solid #0077b6; 
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #75E1E6; 
+  color: #000;
+}
+
+
+.custom-input:focus {
+  outline: none;
+  border-color: lightpink;
+  background-color: #d0ebff;
+}
+
+
+#email.custom-input {
+  background-color: #75E1E6;   
+  border-color: black;     
+}
+
+#fechaNacimiento.custom-input {
+  background-color: #94C2E5;   
+  border-color: black;       
+}
+
+#password.custom-input {
+  background-color: #8F7FEE;   
+  border-color: black;       
+}
+
+
+.custom-btn {
+  background-color: #9EC1BB; 
+  border: 2px solid black; 
+  border-radius: 8px;
+  padding: 12px;
+  font-weight: bold;
+  color: black; 
+}
+
+.custom-btn:hover {
+  background-color: #9EC1BB;
+  border-color: black;
+  color: white;
+}
+
