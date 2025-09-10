@@ -23,19 +23,19 @@ export default function Registro() {
           </div>
 
           {}
-          <div className="col-12">
+          <div className="col-13">
             <label htmlFor="fechaNacimiento" className="form-label">Fecha de nacimiento</label>
             <input type="date" className="form-control custom-input" id="fechaNacimiento" required />
           </div>
 
           {}
-          <div className="col-12">
+          <div className="col-14">
             <label htmlFor="password" className="form-label">Crea tu contraseña</label>
             <input type="password" className="form-control custom-input" id="password" required />
           </div>
 
           {}
-          <div className="col-12">
+          <div className="col-15">
             <div className="form-check">
               <input className="form-check-input" type="checkbox" id="terms" required />
               <label className="form-check-label" htmlFor="terms">

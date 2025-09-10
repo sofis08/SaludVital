@@ -8,7 +8,7 @@
 
 .record-img {
   flex: 1;
-  background-image: url("../assets/img/record.png");
+  background-image: url("../assets/img/jeancarlogay.png");
   background-size: cover;
   background-position: center;
 }
@@ -63,23 +63,23 @@
 
 
 #email.custom-input {
-  background-color: #75E1E6;   
+  background-color: #c6dbd6;   
   border-color: black;     
 }
 
 #fechaNacimiento.custom-input {
-  background-color: #94C2E5;   
+  background-color: #c1c6eb;   
   border-color: black;       
 }
 
 #password.custom-input {
-  background-color: #8F7FEE;   
+  background-color: #bdf1e5;   
   border-color: black;       
 }
 
 
 .custom-btn {
-  background-color: #9EC1BB; 
+  background-color: #9fc6bd;
   border: 2px solid black; 
   border-radius: 8px;
   padding: 12px;
