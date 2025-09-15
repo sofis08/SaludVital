@@ -4,7 +4,7 @@
   height: 100vh;
   margin: 0;
   padding: 0;
-  background-image: url('../assets/img/fondoperfil.png'); 
+  background-image: url('../assets/img/dosj.png'); 
   background-size: cover;   
   background-position: center;
   background-repeat: no-repeat;
@@ -63,12 +63,12 @@
 }
 
 
-#nombre { background-color: #A57DDB; color: black; }
-#email { background-color: #75E1E6; color: black; }
-#direccion { background-color: #75E1E6; color: black; }
-#pais { background-color: #A57DDB; color: black; }
-#fecha { background-color: #BA99DD; color: black; }
-#sexo { background-color: #BA99DD; color: black; }
+#nombre { background-color: #bdb0ca; color: black; }
+#email { background-color: #90b1cf; color: black; }
+#direccion { background-color: #90b1cf; color: black; }
+#pais { background-color: #bdb0ca; color: black; }
+#fecha { background-color: #9295b7; color: black; }
+#sexo { background-color: #9295b7; color: black; }
 
 .perfil-form input,
 .perfil-form textarea,
