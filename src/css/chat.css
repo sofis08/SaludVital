@@ -1,0 +1,22 @@
+
+/* Estilo para que el chat cubra toda la pantalla */
+.chat-container {
+  position: fixed; /* Se mantiene fijo en pantalla */
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+
+  background-image: url('../assets/img/CHAT.jpg'); 
+  background-size: cover;
+  background-position: center;
+  
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  padding: 20px; 
+}
+
+
