@@ -1,14 +1,13 @@
 
-/* Estilo para que el chat cubra toda la pantalla */
 .chat-container {
-  position: fixed; /* Se mantiene fijo en pantalla */
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   z-index: 0;
 
-  background-image: url('../assets/img/CHAT.jpg'); 
+  background-image: url('../assets/img/chat.png'); 
   background-size: cover;
   background-position: center;
   
