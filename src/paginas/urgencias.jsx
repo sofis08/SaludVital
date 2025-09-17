@@ -1,15 +1,13 @@
 import React from "react";
 import "../css/logo.css";
 import "../css/urgencias.css";
+import Menu from "../componentes/menu";
 import { Link } from "react-router-dom";
 
 function Urgencias() {
   return (
     <div className="urgencias-container">
-      <Link to="/" className="logo-link">
-        <span className="logo"></span>
-        SaludVital
-      </Link>
+      <Menu/>
 
       <nav className="search-navbar">
         <form className="search-form" role="search">

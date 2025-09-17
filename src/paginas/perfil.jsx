@@ -1,18 +1,14 @@
 import React from "react";
 import "../css/perfil.css";
 import "../css/logo.css";
+import Menu from "../componentes/menu";
 import { Link } from "react-router-dom";
 
 function Perfil() {
   return (
     <div className="perfil-container">
       {}
-      <Link to="/" className="logo-link">
-        <span className="logo"></span>
-        SaludVital
-      </Link>
-
-      {}
+      <Menu/>
       <div className="perfil-content">
         {}
         <div className="perfil-form">

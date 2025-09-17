@@ -8,19 +8,19 @@ function Menu() {
     <div className="menu-container">
       <nav className="navbar navbar-light bg-white fixed-top border-bottom">
         <div className="container-fluid d-flex align-items-center">
-          {}
-          <Link  to='/'>
-          <a
-            className="navbar-brand fw-bold text-dark d-flex align-items-center me-3"
-            href="#"
-          >
-            <span className="logo me-2"></span>
-            SaludVital
-          </a>
+          { }
+          <Link to='/'>
+            <a
+              className="navbar-brand fw-bold text-dark d-flex align-items-center me-3"
+              href="#"
+            >
+              <span className="logo me-2"></span>
+              SaludVital
+            </a>
           </Link>
 
-          {}
-          <form className="search-form d-flex flex-grow-1 mx-2" role="search">
+          { }
+          <form className="d-flex flex-grow-1 mx-2" role="search">
             <input
               className="search-input form-control form-control-sm"
               type="search"
@@ -29,7 +29,7 @@ function Menu() {
             />
           </form>
 
-          {}
+          { }
           <button
             className="navbar-toggler ms-2"
             type="button"
@@ -41,7 +41,7 @@ function Menu() {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          {}
+          { }
           <div
             className="offcanvas offcanvas-end text-bg-light"
             tabIndex="-1"
@@ -63,91 +63,53 @@ function Menu() {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-start flex-grow-1 pe-3">
                 <li className="nav-item">
-                    <Link to='/tumedicode24horas'>
-                  <a className="nav-link" aria-current="page" href="">
-                    Medico 24h
-                  </a>
+                  <Link to='/tumedicode24horas'>
+                    <a className="nav-link" aria-current="page" href="">
+                      Medico 24h
+                    </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/urgencias'>
-                  <a className="nav-link" href="#">
-                    Urgencias
-                  </a>
+                  <Link to='/urgencias'>
+                    <a className="nav-link" href="#">
+                      Urgencias
+                    </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/farmacia'>
-                  <a className="nav-link" href="#">
-                    Farmacia 
-                  </a>
+                  <Link to='/farmacia'>
+                    <a className="nav-link" href="#">
+                      Farmacia
+                    </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/cuestionario'>
-                  <a className="nav-link" href="#">
-                    Cuestionario
-                  </a>
+                  <Link to='/'>
+                    <a className="nav-link" href="#">
+                      Contactenos
+                    </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/'>
-                  <a className="nav-link" href="#">
-                    Contactenos
-                  </a>
+                  <Link to='/perfil'>
+                    <a className="nav-link" href="#">
+                      Perfil
+                    </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/perfil'>
-                  <a className="nav-link" href="#">
-                    Perfil
-                  </a>
+                  <Link to='/ajustes'>
+                    <a className="nav-link" href="#">
+                      Ajustes
+                    </a>
                   </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to='/ajustes'>
-                  <a className="nav-link" href="#">
-                    Ajustes
-                  </a>
+                  <Link to='/iniciosesion'>
+                    <a className="nav-link" href="#">
+                      Cerrar Sesion
+                    </a>
                   </Link>
-                </li>
-                <li className="nav-item">
-                    <Link to='/iniciosesion'>
-                  <a className="nav-link" href="#">
-                    Cerrar Sesion
-                  </a>
-                  </Link>
-                </li>
-                <li className="nav-item dropdown">
-                  <a
-                    className="nav-link dropdown-toggle"
-                    href="#"
-                    role="button"
-                    data-bs-toggle="dropdown"
-                    aria-expanded="false"
-                  >
-                    Más
-                  </a>
-                  <ul className="dropdown-menu">
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Opción 1
-                      </a>
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Opción 2
-                      </a>
-                    </li>
-                    <li>
-                      <hr className="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a className="dropdown-item" href="#">
-                        Otra opción
-                      </a>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </div>

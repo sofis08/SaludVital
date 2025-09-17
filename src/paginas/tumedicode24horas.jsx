@@ -5,7 +5,7 @@ function Tumedicode24horas() {
         <div>
             
             <Menu />
-                <h1>En esta sección se hará el chat de los médicos</h1>
+                <h1>describele tus sintomas al medico</h1>
 
             </div>
     );
