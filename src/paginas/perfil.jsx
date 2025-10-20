@@ -3,9 +3,12 @@ import React from "react";
 import "../css/perfil.css";
 import "../css/logo.css";
 import { Link } from "react-router-dom";
+import Menu from "../componentes/menu";
 
 function Perfil() {
   return (
+  <div>
+    <Menu/> 
     <div className="perfil-container">
       {}
       <Link to="/" className="logo-link">
@@ -47,6 +50,7 @@ function Perfil() {
         </div>
       </div>
     </div>
+  </div>
   );
 }
 
