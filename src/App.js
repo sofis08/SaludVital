@@ -4,7 +4,6 @@ import Inicio from './paginas/inicio';
 import Perfil from './paginas/perfil';
 import Iniciosesion from './paginas/iniciosesion';
 import Registro from './paginas/registro';
-import Cuestionario from './paginas/cuestionario';
 import Tumedicode24horas from './paginas/tumedicode24horas';
 import Urgencias from './paginas/urgencias';
 import Farmacia from './paginas/farmacia';
@@ -21,7 +20,6 @@ function App() {
           <Route path='/perfil' element={<Perfil />}>   </Route>
           <Route path='/iniciosesion' element={<Iniciosesion />}> </Route>
           <Route path='/registro' element={<Registro />}> </Route>
-          <Route path='/cuestionario' element={<Cuestionario />}> </Route>
           <Route path='/urgencias' element={<Urgencias />}></Route>
           <Route path='/farmacia' element={<Farmacia />}></Route>
           <Route path='/ajustes' element={<Ajustes />}></Route>
