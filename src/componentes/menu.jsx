@@ -37,16 +37,16 @@ function Menu() {
           <button
             className="navbar-toggler ms-2"
             type="button"
-            onClick={toggleMenu} // Usamos la función de React
+            onClick={toggleMenu} 
             aria-controls="navbarNav"
-            aria-expanded={isMenuOpen} // Estado dinámico
+            aria-expanded={isMenuOpen} 
             aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>
 
           <div
-            className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`} // Clase 'show' para expandir
+            className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
             id="navbarNav"
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
